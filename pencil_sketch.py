@@ -1,5 +1,5 @@
 import cv2
-image = cv2.imread("tiger.jpg")
+image = cv2.imread("tiger.jpg")     #here you can place any image of your choice in jpg,png or jpeg format.
 cv2.imshow("tiger", image)
 cv2.waitKey(0)
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
